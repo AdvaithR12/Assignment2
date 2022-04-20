@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 2%;
+} 
+
+.welcome{
+    background: none;
+    text-align-last: center;
+   text-decoration: solid;
+   color: rgb(209, 31, 31);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-blend-mode: lighten;
+   background-repeat: no-repeat;
+   background-color: black;
+ } 
+.form{
+    border: 2px solid black;
+    margin-top: 10em;
+    margin-right: 25%;
+    padding: 20px;
+    width: 50%;
+    float: right;
+    background-color: rgb(141, 236, 182);
+    opacity: 0.8;
+}
+.join{
+    margin-top: 3em;
+    margin-left: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(1, 10, 17);
+    font-size: larger;
+}
+
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.unsplash.com/photo-1491497895121-1334fc14d8c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;background-size: cover;
+    position: relative;
+}
+.header-trivandrum{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.unsplash.com/photo-1614090699960-b4c81be49f3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-position: center;background-size: cover;
+    position: relative;
+}
+
+.header-kollam{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://wallpapercave.com/wp/wp8870773.jpg);
+    background-position: center;background-size: cover;
+    position: relative;
+}
+.header-alappuzha{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://cdn.pixabay.com/photo/2021/08/27/08/20/houseboat-cruise-6578095_960_720.jpg);
+    background-position: center;background-size: cover;
+    position: relative;
+}
+
+.header-thrissur{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://wallpapercave.com/wp/wp8050646.jpg);
+    background-position: center;background-size: cover;
+    position: relative;
+}
+.header-idukki{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.unsplash.com/photo-1599632740188-8a4f152a8342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    width:90%;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1.5s;
+}
+img.slide {
+    height: 600px;
+}
+/* newsletter */
+.newsletter {
+    padding: 80px 0;
+    background: #f2f2f2;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }
+    .indextext {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    /* signupform */
+    .signupform{
+        border: 2px solid black;
+        margin-top: 8em;
+        margin-right: 25%;
+        margin-left: 29%;
+        padding: 20px;
+        width: 50%;
+        background-color: rgb(208, 229, 217);
+        opacity: 0.8;
+    }
+
+/* place */
+.place{
+    margin-top: 3em;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row{
+   padding: 3em;
+}
+    
+
+/* signup */
+
